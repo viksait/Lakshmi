@@ -1,0 +1,473 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E2FE9B1D190E7CD9000BB5A9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E2FE9B1C190E7CD9000BB5A9 /* Foundation.framework */; };
+		E2FE9B1F190E7CD9000BB5A9 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E2FE9B1E190E7CD9000BB5A9 /* CoreGraphics.framework */; };
+		E2FE9B21190E7CD9000BB5A9 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E2FE9B20190E7CD9000BB5A9 /* UIKit.framework */; };
+		E2FE9B27190E7CD9000BB5A9 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = E2FE9B25190E7CD9000BB5A9 /* InfoPlist.strings */; };
+		E2FE9B29190E7CD9000BB5A9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E2FE9B28190E7CD9000BB5A9 /* main.m */; };
+		E2FE9B2D190E7CD9000BB5A9 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E2FE9B2C190E7CD9000BB5A9 /* AppDelegate.m */; };
+		E2FE9B30190E7CD9000BB5A9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E2FE9B2E190E7CD9000BB5A9 /* Main.storyboard */; };
+		E2FE9B33190E7CD9000BB5A9 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E2FE9B32190E7CD9000BB5A9 /* ViewController.m */; };
+		E2FE9B35190E7CD9000BB5A9 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E2FE9B34190E7CD9000BB5A9 /* Images.xcassets */; };
+		E2FE9B3C190E7CD9000BB5A9 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E2FE9B3B190E7CD9000BB5A9 /* XCTest.framework */; };
+		E2FE9B3D190E7CD9000BB5A9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E2FE9B1C190E7CD9000BB5A9 /* Foundation.framework */; };
+		E2FE9B3E190E7CD9000BB5A9 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E2FE9B20190E7CD9000BB5A9 /* UIKit.framework */; };
+		E2FE9B46190E7CD9000BB5A9 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = E2FE9B44190E7CD9000BB5A9 /* InfoPlist.strings */; };
+		E2FE9B48190E7CD9000BB5A9 /* vivekTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E2FE9B47190E7CD9000BB5A9 /* vivekTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E2FE9B3F190E7CD9000BB5A9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E2FE9B11190E7CD9000BB5A9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E2FE9B18190E7CD9000BB5A9;
+			remoteInfo = vivek;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		E2FE9B19190E7CD9000BB5A9 /* vivek.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = vivek.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E2FE9B1C190E7CD9000BB5A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		E2FE9B1E190E7CD9000BB5A9 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		E2FE9B20190E7CD9000BB5A9 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		E2FE9B24190E7CD9000BB5A9 /* vivek-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "vivek-Info.plist"; sourceTree = "<group>"; };
+		E2FE9B26190E7CD9000BB5A9 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		E2FE9B28190E7CD9000BB5A9 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		E2FE9B2A190E7CD9000BB5A9 /* vivek-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "vivek-Prefix.pch"; sourceTree = "<group>"; };
+		E2FE9B2B190E7CD9000BB5A9 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		E2FE9B2C190E7CD9000BB5A9 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		E2FE9B2F190E7CD9000BB5A9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E2FE9B31190E7CD9000BB5A9 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		E2FE9B32190E7CD9000BB5A9 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		E2FE9B34190E7CD9000BB5A9 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		E2FE9B3A190E7CD9000BB5A9 /* vivekTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = vivekTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E2FE9B3B190E7CD9000BB5A9 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		E2FE9B43190E7CD9000BB5A9 /* vivekTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "vivekTests-Info.plist"; sourceTree = "<group>"; };
+		E2FE9B45190E7CD9000BB5A9 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		E2FE9B47190E7CD9000BB5A9 /* vivekTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = vivekTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E2FE9B16190E7CD9000BB5A9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E2FE9B1F190E7CD9000BB5A9 /* CoreGraphics.framework in Frameworks */,
+				E2FE9B21190E7CD9000BB5A9 /* UIKit.framework in Frameworks */,
+				E2FE9B1D190E7CD9000BB5A9 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E2FE9B37190E7CD9000BB5A9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E2FE9B3C190E7CD9000BB5A9 /* XCTest.framework in Frameworks */,
+				E2FE9B3E190E7CD9000BB5A9 /* UIKit.framework in Frameworks */,
+				E2FE9B3D190E7CD9000BB5A9 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E2FE9B10190E7CD9000BB5A9 = {
+			isa = PBXGroup;
+			children = (
+				E2FE9B22190E7CD9000BB5A9 /* vivek */,
+				E2FE9B41190E7CD9000BB5A9 /* vivekTests */,
+				E2FE9B1B190E7CD9000BB5A9 /* Frameworks */,
+				E2FE9B1A190E7CD9000BB5A9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E2FE9B1A190E7CD9000BB5A9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E2FE9B19190E7CD9000BB5A9 /* vivek.app */,
+				E2FE9B3A190E7CD9000BB5A9 /* vivekTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E2FE9B1B190E7CD9000BB5A9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E2FE9B1C190E7CD9000BB5A9 /* Foundation.framework */,
+				E2FE9B1E190E7CD9000BB5A9 /* CoreGraphics.framework */,
+				E2FE9B20190E7CD9000BB5A9 /* UIKit.framework */,
+				E2FE9B3B190E7CD9000BB5A9 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E2FE9B22190E7CD9000BB5A9 /* vivek */ = {
+			isa = PBXGroup;
+			children = (
+				E2FE9B2B190E7CD9000BB5A9 /* AppDelegate.h */,
+				E2FE9B2C190E7CD9000BB5A9 /* AppDelegate.m */,
+				E2FE9B2E190E7CD9000BB5A9 /* Main.storyboard */,
+				E2FE9B31190E7CD9000BB5A9 /* ViewController.h */,
+				E2FE9B32190E7CD9000BB5A9 /* ViewController.m */,
+				E2FE9B34190E7CD9000BB5A9 /* Images.xcassets */,
+				E2FE9B23190E7CD9000BB5A9 /* Supporting Files */,
+			);
+			path = vivek;
+			sourceTree = "<group>";
+		};
+		E2FE9B23190E7CD9000BB5A9 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E2FE9B24190E7CD9000BB5A9 /* vivek-Info.plist */,
+				E2FE9B25190E7CD9000BB5A9 /* InfoPlist.strings */,
+				E2FE9B28190E7CD9000BB5A9 /* main.m */,
+				E2FE9B2A190E7CD9000BB5A9 /* vivek-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		E2FE9B41190E7CD9000BB5A9 /* vivekTests */ = {
+			isa = PBXGroup;
+			children = (
+				E2FE9B47190E7CD9000BB5A9 /* vivekTests.m */,
+				E2FE9B42190E7CD9000BB5A9 /* Supporting Files */,
+			);
+			path = vivekTests;
+			sourceTree = "<group>";
+		};
+		E2FE9B42190E7CD9000BB5A9 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E2FE9B43190E7CD9000BB5A9 /* vivekTests-Info.plist */,
+				E2FE9B44190E7CD9000BB5A9 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E2FE9B18190E7CD9000BB5A9 /* vivek */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E2FE9B4B190E7CD9000BB5A9 /* Build configuration list for PBXNativeTarget "vivek" */;
+			buildPhases = (
+				E2FE9B15190E7CD9000BB5A9 /* Sources */,
+				E2FE9B16190E7CD9000BB5A9 /* Frameworks */,
+				E2FE9B17190E7CD9000BB5A9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = vivek;
+			productName = vivek;
+			productReference = E2FE9B19190E7CD9000BB5A9 /* vivek.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E2FE9B39190E7CD9000BB5A9 /* vivekTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E2FE9B4E190E7CD9000BB5A9 /* Build configuration list for PBXNativeTarget "vivekTests" */;
+			buildPhases = (
+				E2FE9B36190E7CD9000BB5A9 /* Sources */,
+				E2FE9B37190E7CD9000BB5A9 /* Frameworks */,
+				E2FE9B38190E7CD9000BB5A9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E2FE9B40190E7CD9000BB5A9 /* PBXTargetDependency */,
+			);
+			name = vivekTests;
+			productName = vivekTests;
+			productReference = E2FE9B3A190E7CD9000BB5A9 /* vivekTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E2FE9B11190E7CD9000BB5A9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = abc;
+				TargetAttributes = {
+					E2FE9B39190E7CD9000BB5A9 = {
+						TestTargetID = E2FE9B18190E7CD9000BB5A9;
+					};
+				};
+			};
+			buildConfigurationList = E2FE9B14190E7CD9000BB5A9 /* Build configuration list for PBXProject "vivek" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E2FE9B10190E7CD9000BB5A9;
+			productRefGroup = E2FE9B1A190E7CD9000BB5A9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E2FE9B18190E7CD9000BB5A9 /* vivek */,
+				E2FE9B39190E7CD9000BB5A9 /* vivekTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E2FE9B17190E7CD9000BB5A9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E2FE9B35190E7CD9000BB5A9 /* Images.xcassets in Resources */,
+				E2FE9B27190E7CD9000BB5A9 /* InfoPlist.strings in Resources */,
+				E2FE9B30190E7CD9000BB5A9 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E2FE9B38190E7CD9000BB5A9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E2FE9B46190E7CD9000BB5A9 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E2FE9B15190E7CD9000BB5A9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E2FE9B33190E7CD9000BB5A9 /* ViewController.m in Sources */,
+				E2FE9B2D190E7CD9000BB5A9 /* AppDelegate.m in Sources */,
+				E2FE9B29190E7CD9000BB5A9 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E2FE9B36190E7CD9000BB5A9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E2FE9B48190E7CD9000BB5A9 /* vivekTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E2FE9B40190E7CD9000BB5A9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E2FE9B18190E7CD9000BB5A9 /* vivek */;
+			targetProxy = E2FE9B3F190E7CD9000BB5A9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		E2FE9B25190E7CD9000BB5A9 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E2FE9B26190E7CD9000BB5A9 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		E2FE9B2E190E7CD9000BB5A9 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E2FE9B2F190E7CD9000BB5A9 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		E2FE9B44190E7CD9000BB5A9 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E2FE9B45190E7CD9000BB5A9 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E2FE9B49190E7CD9000BB5A9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		E2FE9B4A190E7CD9000BB5A9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E2FE9B4C190E7CD9000BB5A9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "vivek/vivek-Prefix.pch";
+				INFOPLIST_FILE = "vivek/vivek-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		E2FE9B4D190E7CD9000BB5A9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "vivek/vivek-Prefix.pch";
+				INFOPLIST_FILE = "vivek/vivek-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		E2FE9B4F190E7CD9000BB5A9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/vivek.app/vivek";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "vivek/vivek-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "vivekTests/vivekTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		E2FE9B50190E7CD9000BB5A9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/vivek.app/vivek";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "vivek/vivek-Prefix.pch";
+				INFOPLIST_FILE = "vivekTests/vivekTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E2FE9B14190E7CD9000BB5A9 /* Build configuration list for PBXProject "vivek" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E2FE9B49190E7CD9000BB5A9 /* Debug */,
+				E2FE9B4A190E7CD9000BB5A9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E2FE9B4B190E7CD9000BB5A9 /* Build configuration list for PBXNativeTarget "vivek" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E2FE9B4C190E7CD9000BB5A9 /* Debug */,
+				E2FE9B4D190E7CD9000BB5A9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		E2FE9B4E190E7CD9000BB5A9 /* Build configuration list for PBXNativeTarget "vivekTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E2FE9B4F190E7CD9000BB5A9 /* Debug */,
+				E2FE9B50190E7CD9000BB5A9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E2FE9B11190E7CD9000BB5A9 /* Project object */;
+}

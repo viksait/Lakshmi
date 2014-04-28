@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>A5C55E66-2AEC-48C2-8334-90AC54FAA111</string>
+	<key>IDESourceControlProjectName</key>
+	<string>vivek</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>B756E405-31DA-434D-B0D5-8DDC95D64E09</key>
+		<string>https://github.com/viksait/Lakshmi.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>vivek/vivek.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>B756E405-31DA-434D-B0D5-8DDC95D64E09</key>
+		<string>../../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/viksait/Lakshmi.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>B756E405-31DA-434D-B0D5-8DDC95D64E09</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>B756E405-31DA-434D-B0D5-8DDC95D64E09</string>
+			<key>IDESourceControlWCCName</key>
+			<string>Testing</string>
+		</dict>
+	</array>
+</dict>
+</plist>
